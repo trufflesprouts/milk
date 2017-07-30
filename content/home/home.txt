@@ -2,7 +2,12 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Intro: 
+
+<h1>Join Us</h1>
+<h2>Open Positions</h2>
+<h4>Account Executive</h4>
+We are on the hunt for an account representative. You will be the direct link between Milk and our clients. Some tasks that you will be dealing with daily vary from preparing creative briefs to attending follow-up meetings. This spot is available for an Arab national with fluent English. It is a requirement to have 1 to 2 years of experience in an advertising agency.
 
 ----
 

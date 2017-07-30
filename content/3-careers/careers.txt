@@ -1,0 +1,47 @@
+Title: Careers
+
+----
+
+Intro: #Join Us
+
+----
+
+Text: 
+
+----
+
+Tagline: Join Us
+
+----
+
+Openpositions: 
+
+- 
+  title: Account Executive
+  description: >
+    We are on the hunt for an account
+    representative. You will be the direct
+    link between Milk and our clients. Some
+    tasks that you will be dealing with
+    daily vary from preparing creative
+    briefs to attending follow-up meetings.
+    This spot is available for an Arab
+    national with fluent English. It is a
+    requirement to have 1 to 2 years of
+    experience in an advertising agency.
+- 
+  title: Social Media Specialist
+  description: >
+    This role will monitor and track all
+    customer feedback on various digital
+    platforms while supporting internal and
+    external teams with the task of frequent
+    reporting. Impeccable customer service
+    is crucial in the social media world. It
+    will be your responsibility to
+    consistently interact via our website
+    and social media channels.
+
+----
+
+Internships: Do you think we need your skills? Do you have passion for creating? Don´t hesitate and contact us if you want to become part of our team.

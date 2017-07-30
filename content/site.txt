@@ -14,20 +14,24 @@ Copyright: © (date: Year) Milk Design
 
 ----
 
-keywords: Branding, Web design, Communication, Graphic Design
+Keywords: Branding, Web design, Communication, Graphic Design
 
 ----
 
-facebook: https://www.facebook.com/milkstudioksa
+Facebook: https://www.facebook.com/milkstudioksa/
 
 ----
 
-twitter: https://twitter.com/milkdesignstudi
+Twitter: https://twitter.com/milkdesignstudi/
 
 ----
 
-instagram: https://instagram.com/milkdesignstudio/
+Instagram: https://instagram.com/milkdesignstudio/
 
 ----
 
-behance: https://www.behance.net/milkdesignstudio
+Behance: https://www.behance.net/milkdesignstudio/
+
+----
+
+Logo: miik-logo.svg

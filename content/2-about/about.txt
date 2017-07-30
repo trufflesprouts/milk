@@ -2,8 +2,71 @@ Title: About
 
 ----
 
-Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+Intro: The notion of an everyday world transformed by grandiose ventures is not, of course, exclusive to the nineteen-thirties. It has exerted a perennial popular appeal. Even today, daydreams of mile-high skyscrapers, subterranean parks, and buses straddling entire highways are often treated as hard news. Though they are rarely realistic, as either engineering proposals or as political solutions to urban problems, they strike an imaginative chord. And justifiably so: compared with damming the Hudson, the idea of, say, fixing and maintaining Manhattan’s aging sewer system seems like the definition of tedium. For some people, the city of tomorrow must be a spectacle, or it won’t be the city of tomorrow at all.
 
 ----
 
-Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+Text: Milk is a Jeddah-based Branding agency with a global mindset, local assets. We are focused on strategically better position and develop brand identities for our clients to set them apart from competitors.
+
+----
+
+Tagline: Cows Do Milk, Milk Does Brands
+
+----
+
+Services: 
+
+- 
+  category: 'Design & Build'
+  serviceslist: |
+    Interactive Design
+    Brand & Identity Design
+    Print & Package Design
+    Digital Strategy
+    Web Design & Development
+    Product Design
+    Environmental Design
+- 
+  category: 'Concept & Creation'
+  serviceslist: |
+    Art Direction
+    Editorial Production
+    Photography
+    Content Strategy & Copywriting
+    Social Media Strategy
+    Brand Consulting & Messaging
+    Naming
+
+----
+
+Approach: 
+
+- 
+  title: The Research
+  description: >
+    This is when the process of analysis
+    begins. Researching relevant topics,
+    breaking down local and international
+    competitors to make what it is that you
+    are asking for as relevant and powerful
+    as possible.
+- 
+  title: The Brief
+  description: >
+    During the initial phase of our
+    collaboration, our time is dedicated to
+    collecting as much information as
+    possible to make your vision come to
+    life. Absorbing everything necessary to
+    create a brief that will then be sent to
+    the creative team.
+- 
+  title: The Execution
+  description: >
+    After analysis, phase 3 is taking all
+    the gathered content to form a strong
+    brand foundation and strategy. This
+    strategy is translated into design. This
+    is when critiques of the various
+    executions help us complete the projects
+    at hand.

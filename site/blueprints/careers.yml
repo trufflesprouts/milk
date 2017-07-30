@@ -1,0 +1,31 @@
+title: Careers
+
+pages: false
+
+files:
+  sortable: true
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  tagline:
+    label: Tagline
+    type: text
+
+  openpositions:
+    label: Open Positions
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Position Title
+        type: text
+      description:
+        label: Description
+        type: textarea
+
+  internships:
+    label: Internships
+    type: textarea

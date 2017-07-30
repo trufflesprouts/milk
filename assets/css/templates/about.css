@@ -1,97 +1,3 @@
-@charset "UTF-8";
-/* The Clearfix™: A classic … */
-.cf::after {
-  content: "";
-  display: block;
-  height: 0;
-  overflow: hidden;
-  clear: both; }
-
-/* DIN */
-@font-face {
-  font-family: 'DIN';
-  src: url(../fonts/din-300.woff2) format("woff2"), url(../fonts/din-300.woff) format("woff");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'DIN';
-  src: url(../fonts/din-500.woff2) format("woff2"), url(../fonts/din-500.woff) format("woff");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'DIN';
-  src: url(../fonts/din-700.woff2) format("woff2"), url(../fonts/din-700.woff) format("woff");
-  font-weight: 700;
-  font-style: normal; }
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-  list-style: none; }
-
-article, aside, details, figcaption, figure,
-footer, header, main, menu, nav, section, summary {
-  /* Add correct display for IE 9- and some newer browsers */
-  display: block; }
-
-::-moz-selection {
-  background: #E6E6E6;
-  color: black; }
-
-::selection {
-  background: #E6E6E6;
-  color: #000; }
-
-html {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
-
-html {
-  color: #000;
-  font: normal 300 18px "DIN", Helvetica, Arial, sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
-
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, figure, pre {
-  font-size: inherit;
-  line-height: inherit;
-  margin: 0 0 1.5rem;
-  margin: 0; }
-
-p {
-  line-height: 22px; }
-
-/* Headings */
-h1, h2, h3 {
-  font-weight: 700; }
-
-h1 {
-  font-weight: 700;
-  font-size: 2.7rem;
-  text-transform: uppercase;
-  margin-bottom: 4.4rem; }
-
-@media all and (min-width: 500px) {
-  h1 {
-    font-size: 4rem; } }
-h2 {
-  font-size: 1.75rem;
-  margin-bottom: 2.2rem; }
-
-h3 {
-  font-size: 1.25em; }
-
-h4 {
-  font-weight: 300;
-  color: #FFA600;
-  margin-bottom: 0.5rem; }
-
-/* Links */
-a {
-  color: inherit;
-  text-decoration: none; }
-
 .header {
   height: 27px;
   margin-bottom: 11.1rem;
@@ -214,17 +120,19 @@ a {
       width: 1px;
       background-color: #E6E6E6; } }
 
-html {
-  background: #FFF;
-  overflow-y: scroll;
-  cursor: default; }
+.hero-container {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  background-color: black; }
 
-main {
-  max-width: 1290px;
-  margin: 1.5rem; }
+.hero {
+  color: white;
+  text-align: center; }
+  .hero h1 {
+    margin-bottom: 2.2rem; }
+  .hero p {
+    max-width: 900px;
+    margin: 0 auto; }
 
-@media all and (min-width: 1290px) {
-  main {
-    margin: 1.5rem auto; } }
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about.css.map */

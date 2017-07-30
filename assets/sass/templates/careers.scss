@@ -1,0 +1,48 @@
+@import "../helpers/vars";
+
+.open-positions {
+  .position {
+    margin-bottom: $space-1;
+  }
+}
+.images {
+  margin: $space-2 0;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: $small-screen) {
+  .open-positions {
+    .position {
+      float: left;
+      width: 46%;
+    }
+    .position:nth-child(even) {
+      margin-right: 8%;
+    }
+  }
+  .internships {
+    clear: both;
+  }
+}
+
+@media all and (min-width: $medium-screen) {
+  .open-positions {
+    float: left;
+    width: 50%;
+    .position {
+      float: left;
+      width: 46%;
+    }
+    .position:nth-child(even) {
+      margin-right: 8%;
+    }
+  }
+  .internships {
+    clear: none;
+    float: right;
+    width: 25%;
+  }
+}

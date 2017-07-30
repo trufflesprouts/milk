@@ -1,4 +1,5 @@
 // Globals
+$depth-background: -1;
 $depth-0: 0;
 $depth-1: 1;
 $depth-2: 2;
@@ -7,6 +8,7 @@ $wraper-max-width: 1290px;
 
 // Devices
 $small-screen: 500px;
+$medium-screen: 1100px;
 
 // Type
 $main-font: "DIN", Helvetica, Arial, sans-serif;
@@ -23,7 +25,7 @@ $color-blue: #1030F9;
 $color-papayawhip: #FFEFD4;
 
 // Spacing
-$space-0: 1rem;
-$space-1: 2.2px;
+$space-0: 0.5rem;
+$space-1: 2.2rem;
 $space-2: 4.4rem;
 $space-3: 11.1rem;

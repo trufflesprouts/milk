@@ -12,6 +12,7 @@
 
   <?php echo js('assets/js/main.js') ?>
   <?= css('assets/css/index.css') ?>
+  <?php echo css('@auto') ?>
 
 </head>
 <body>

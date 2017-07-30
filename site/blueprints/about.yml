@@ -6,19 +6,42 @@ pages:
 
 files: false
 
-options: 
-  template: false  
-  status: false  
-  
+options:
+  template: false
+  status: false
+
 fields:
   title:
     label: Title
     type: title
-    
-  intro:
-    label: Intro
-    type: textarea
-    
+
+  tagline:
+    label: Tagline
+    type: text
+
   text:
-    label: Text
+    label: Text (under tageline)
     type: textarea
+
+  services:
+    label: Services
+    type: structure
+    fields:
+      category:
+        label: Category
+        type: text
+      serviceslist:
+        label: Services List
+        type: textarea
+
+  approach:
+    label: Approach
+    type: structure
+    limit: 3
+    fields:
+      title:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea

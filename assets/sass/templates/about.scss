@@ -1,0 +1,30 @@
+@import "../helpers/vars";
+@import "../components/header-white";
+
+
+// .hero-image {
+//   position: absolute;
+//   z-index: $depth-background;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 80vh;
+//   background-color: black;
+// }
+.hero-container {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  background-color: black;
+}
+.hero {
+  color: white;
+  text-align: center;
+  h1 {
+    margin-bottom: $space-1;
+  }
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}

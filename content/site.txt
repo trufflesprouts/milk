@@ -1,13 +1,33 @@
-Title: Kirby Starterkit
+Title: Milk Design
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Abe Baali
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Milk is a jeddah-based branding agency with a global mindset, local assets. We are focused on bringing companies into new challenges to help setting them apart from competitors.
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © (date: Year) Milk Design
+
+----
+
+keywords: Branding, Web design, Communication, Graphic Design
+
+----
+
+facebook: https://www.facebook.com/milkstudioksa
+
+----
+
+twitter: https://twitter.com/milkdesignstudi
+
+----
+
+instagram: https://instagram.com/milkdesignstudio/
+
+----
+
+behance: https://www.behance.net/milkdesignstudio

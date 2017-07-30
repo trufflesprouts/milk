@@ -1,0 +1,65 @@
+.header {
+  padding-top: 1.5rem;
+}
+
+.branding {
+  text-align: center;
+  font-family: DIN, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+  margin-bottom: .45rem;
+}
+
+.branding a {
+  border-bottom: 0;
+}
+
+@media all and (min-width: 56em) {
+  .header {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .branding {
+    line-height: 3rem;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .branding,
+  .navigation {
+    vertical-align: baseline;
+    width: 50%;
+  }
+}
+
+.menu {
+  text-align: center;
+  font-weight: 500;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item:not(:last-child)::after {
+  content: "⁄";
+  display: inline-block;
+  font-size: .75em;
+  padding: 0 .2em;
+  color: #a8a5be;
+}
+
+.menu-item a {
+  border-bottom: 0;
+}
+
+.menu-item.is-active a {
+  border-bottom: 2px solid #71efac;
+}
+
+@media all and (min-width: 56em) {
+  .menu {
+    text-align: right;
+  }
+}

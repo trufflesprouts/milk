@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import "./common/fonts";
+@import "./common/reset";
+@import "./common/typography";
+@import "./helpers/clearfix";
+@import "./components/header";
+
+html {
+  background: white;
+  color: black;
+  font: normal 400 1.5em/1.5 "DIN", Georgia, serif;
+  // Always show the vertical scrollbar to prevent `jumps`of page content after navigating from a very short pagethat does not scroll to a long pager
+  overflow-y: scroll;
+  // Setting this to `default` prevents the cursors fromchanging when hovering blocks of text or whitespace,which is less distracting
+  cursor: default;
+  // Prevent adjustments of font size after orientation changes in IE and iOS.
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  // Highlight color for WebKit-bases touch devices
+  -webkit-tap-highlight-color: #FF9702;
+}
+
+@media all and (max-width: 30em) {
+  html {
+    /* We decrease the font-size a little-bit for tiny
+       screens. Because this stylesheet uses relative units
+       everywhere, everything scales nicely. */
+    font-size: 1.25em;
+  }
+}
+
+body {
+  max-width: 1290px;
+  margin: 0 auto;
+}

@@ -1,19 +1,27 @@
 @charset "UTF-8";
+/* The Clearfix™: A classic … */
+.cf::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both; }
+
 /* DIN */
 @font-face {
   font-family: 'DIN';
-  src: url(../fonts/din-700.woff2) format("woff2"), url(../fonts/din-700.woff) format("woff");
-  font-weight: normal;
+  src: url(../fonts/din-300.woff2) format("woff2"), url(../fonts/din-300.woff) format("woff");
+  font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: 'DIN';
   src: url(../fonts/din-500.woff2) format("woff2"), url(../fonts/din-500.woff) format("woff");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: 'DIN';
-  src: url(../fonts/din-300.woff2) format("woff2"), url(../fonts/din-300.woff) format("woff");
-  font-weight: normal;
+  src: url(../fonts/din-700.woff2) format("woff2"), url(../fonts/din-700.woff) format("woff");
+  font-weight: 700;
   font-style: normal; }
 *, *::before, *::after {
   margin: 0;
@@ -28,177 +36,188 @@ footer, header, main, menu, nav, section, summary {
   display: block; }
 
 ::-moz-selection {
-  background: #FF9702;
+  background: #E6E6E6;
   color: black; }
 
 ::selection {
-  background: #FF9702;
-  color: black; }
+  background: #E6E6E6;
+  color: #000; }
+
+html {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+html {
+  color: #000;
+  font: normal 300 18px "DIN", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, figure, pre {
-  /* Reset font-sizes and normalize margins */
   font-size: inherit;
   line-height: inherit;
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1.5rem;
+  margin: 0; }
 
 /* Headings */
 h1, h2, h3 {
-  font-family: DIN, Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h1 {
   font-weight: 700;
   font-size: 2.5rem;
-  line-height: 1.25;
-  text-align: center;
-  margin-bottom: 3rem; }
+  text-transform: uppercase; }
 
+@media all and (min-width: 500px) {
+  h1 {
+    font-size: 4rem; } }
 h2 {
-  font-size: 1.75rem;
-  line-height: 2.2rem;
-  text-align: center; }
+  font-size: 1.75rem; }
 
 h3 {
-  font-size: 1.25em;
-  line-height: 1.2; }
+  font-size: 1.25em; }
 
 h4 {
-  font-size: 1em; }
+  font-weight: 500;
+  color: #FFA600; }
 
 /* Links */
 a {
   color: inherit;
-  text-decoration: none;
-  border-bottom: 2px solid #71efac; }
-
-a:hover, a:focus, a:active {
-  color: #560bed; }
-
-/* Misc */
-hr {
-  font-size: 1.25rem;
-  font-weight: 500;
-  height: 1.5rem;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  color: #71efac; }
-
-hr::before {
-  content: "";
-  position: relative;
-  display: block;
-  background: currentColor;
-  height: 2px;
-  top: calc(50% + 1px); }
-
-hr::after {
-  content: "× × ×";
-  background: #fffff8;
-  position: relative;
-  padding: 0 .25rem;
-  top: -.25rem; }
-
-h1 + hr,
-.intro + hr {
-  /* Shift a <hr> right after an `.intro`
-     or <h1> block one line up. */
-  margin-top: -1.5rem; }
-
-i, em {
-  /* DIN does not have Italics,
-     so we use a the *medium* weight instead */
-  font-weight: 500;
-  font-style: normal; }
-
-b, strong {
-  font-weight: 700; }
-
-mark {
-  padding: .1em .05em;
-  margin: -.1em 0;
-  color: #261e66;
-  background: #eafded; }
-
-/* The Clearfix™: A classic … */
-.cf::after {
-  content: "";
-  display: block;
-  height: 0;
-  overflow: hidden;
-  clear: both; }
+  text-decoration: none; }
 
 .header {
-  padding-top: 1.5rem; }
+  height: 27px;
+  margin-bottom: 11.1rem;
+  /* Hamburger Icon */ }
+  .header .logo {
+    position: relative;
+    z-index: 0;
+    float: left; }
+    .header .logo img {
+      height: 27px; }
+  .header #hamburger-icon {
+    position: relative;
+    z-index: 2;
+    float: right; }
+  .header #hamburger-icon {
+    width: 28px;
+    margin-top: 8px;
+    height: 27px;
+    position: relative;
+    display: block; }
+  .header #hamburger-icon .line {
+    display: block;
+    background: #000;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    transition: all 0.4s; }
+  .header #hamburger-icon .line.line-1 {
+    top: 0;
+    width: 100%; }
+  .header #hamburger-icon .line.line-2 {
+    top: 8px;
+    width: 80%; }
+  .header #hamburger-icon .line.line-3 {
+    top: 16px;
+    width: 60%; }
+  @media all and (min-width: 500px) {
+    .header #hamburger-icon {
+      width: 32px;
+      margin-top: 4px; }
+    .header #hamburger-icon .line.line-2 {
+      top: 10px;
+      width: 80%; }
+    .header #hamburger-icon .line.line-3 {
+      top: 20px;
+      width: 60%; }
+    .header #hamburger-icon:hover .line-1 {
+      transform: translateY(-2px); }
+    .header #hamburger-icon:hover .line-3 {
+      transform: translateY(2px); } }
+  .header #hamburger-icon.nav-active .line-1 {
+    transform-origin: left;
+    transform: translateY(-50%) rotate(45deg); }
+  .header #hamburger-icon.nav-active .line-2 {
+    opacity: 0; }
+  .header #hamburger-icon.nav-active .line-3 {
+    width: 100%;
+    transform-origin: left;
+    transform: translateY(100%) rotate(-45deg); }
+  .header .menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+    transform: translateY(-100%);
+    transition: 0.7s cubic-bezier(0, 0.86, 0.2, 0.99); }
+    .header .menu-container a {
+      display: inline-block;
+      transition: 0.1s ease-out; }
+    .header .menu-container a:hover {
+      color: #FFA600; }
+    .header .menu-container h1 {
+      font-weight: 300;
+      text-transform: capitalize; }
+    .header .menu-container li {
+      opacity: 0;
+      transition: 1s ease-out; }
+    .header .menu-container li:nth-child(2) {
+      transition-delay: 0.08s; }
+    .header .menu-container li:nth-child(3) {
+      transition-delay: 0.14s; }
+    .header .menu-container li:nth-child(4) {
+      transition-delay: 0.18s; }
+    .header .menu-container li:not(:last-child) {
+      margin-bottom: 1.7rem; }
+    .header .menu-container .social-media {
+      display: none; }
+  .header .menu-container.nav-active {
+    transform: translateY(0); }
+    .header .menu-container.nav-active li {
+      opacity: 1; }
+  .header .menu {
+    max-width: 1290px;
+    margin: 0 auto; }
+  @media all and (min-width: 500px) {
+    .header .menu-container li {
+      position: relative;
+      display: inline-block; }
+    .header .menu-container .social-media {
+      display: block;
+      margin-bottom: 1.5rem; }
+      .header .menu-container .social-media a {
+        text-decoration: underline; }
+      .header .menu-container .social-media li:not(:last-child) {
+        margin: 0 2rem 0 0; }
+    .header .menu-container .pages li:not(:last-child) {
+      margin: 0 4rem 0 0; }
+    .header .menu-container .pages li:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      right: -2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 1.5rem;
+      width: 1px;
+      background-color: #E6E6E6; } }
 
-.branding {
-  text-align: center;
-  font-family: DIN, Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.95rem;
-  margin-bottom: .45rem; }
-
-.branding a {
-  border-bottom: 0; }
-
-@media all and (min-width: 56em) {
-  .header {
-    padding-top: 3rem;
-    padding-bottom: 1.5rem; }
-
-  .branding {
-    line-height: 3rem;
-    margin-bottom: 0;
-    white-space: nowrap;
-    text-align: left; }
-
-  .branding,
-  .navigation {
-    vertical-align: baseline;
-    width: 50%; } }
-.menu {
-  text-align: center;
-  font-weight: 500; }
-
-.menu-item {
-  display: inline-block; }
-
-.menu-item:not(:last-child)::after {
-  content: "⁄";
-  display: inline-block;
-  font-size: .75em;
-  padding: 0 .2em;
-  color: #a8a5be; }
-
-.menu-item a {
-  border-bottom: 0; }
-
-.menu-item.is-active a {
-  border-bottom: 2px solid #71efac; }
-
-@media all and (min-width: 56em) {
-  .menu {
-    text-align: right; } }
 html {
-  background: white;
-  color: black;
-  font: normal 400 1.5em/1.5 "DIN", Georgia, serif;
+  background: #FFF;
   overflow-y: scroll;
-  cursor: default;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: #FF9702; }
+  cursor: default; }
 
-@media all and (max-width: 30em) {
-  html {
-    /* We decrease the font-size a little-bit for tiny
-       screens. Because this stylesheet uses relative units
-       everywhere, everything scales nicely. */
-    font-size: 1.25em; } }
-body {
+main {
   max-width: 1290px;
-  margin: 0 auto; }
+  margin: 1.5rem; }
+
+@media all and (min-width: 1290px) {
+  main {
+    margin: 1.5rem auto; } }
 
 /*# sourceMappingURL=index.css.map */

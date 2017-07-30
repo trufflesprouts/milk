@@ -1,100 +1,57 @@
+html {
+  color: $color-black;
+  font: normal $base-font-weight $base-font-size $main-font;
+  // Prevent adjustments of font size after orientation changes in IE and iOS.
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, figure, pre {
-  /* Reset font-sizes and normalize margins */
   font-size: inherit;
   line-height: inherit;
   margin: 0 0 1.5rem;
+  margin: 0;
 }
 
 /* Headings */
 h1, h2, h3 {
-  font-family: DIN, Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
 h1 {
   font-weight: 700;
   font-size: 2.5rem;
-  line-height: 1.25;
-  text-align: center;
-  margin-bottom: 3rem;
+  text-transform: uppercase;
+
+}
+
+@media all and (min-width: $small-screen) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 h2 {
   font-size: 1.75rem;
-  line-height: 2.2rem;
-  text-align: center;
 }
 
 h3 {
   font-size: 1.25em;
-  line-height: 1.2;
 }
 
 h4 {
-  font-size: 1em;
+  font-weight: 500;
+  color: $color-orange;
 }
+
 
 /* Links */
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #71efac;
 }
-
-a:hover, a:focus, a:active {
-  color: #560bed;
-}
-
-/* Misc */
-hr {
-  font-size: 1.25rem;
-  font-weight: 500;
-  height: 1.5rem;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  color: #71efac;
-}
-
-hr::before {
-  content: "";
-  position: relative;
-  display: block;
-  background: currentColor;
-  height: 2px;
-  top: calc(50% + 1px);
-}
-
-hr::after {
-  content: "× × ×";
-  background: #fffff8;
-  position: relative;
-  padding: 0 .25rem;
-  top: -.25rem;
-}
-
-h1 + hr,
-.intro + hr {
-  /* Shift a <hr> right after an `.intro`
-     or <h1> block one line up. */
-  margin-top: -1.5rem;
-}
-
-i, em {
-  /* DIN does not have Italics,
-     so we use a the *medium* weight instead */
-  font-weight: 500;
-  font-style: normal;
-}
-
-b, strong {
-  font-weight: 700;
-}
-
-mark {
-  padding: .1em .05em;
-  margin: -.1em 0;
-  color: #261e66;
-  background: #eafded;
-}
+//
+// a:hover, a:focus, a:active {
+//   border-bottom: 2px solid $color-orange;
+// }

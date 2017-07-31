@@ -1,4 +1,3 @@
-From 'assets/' compile styles by:
+# Milk Design
 
-sass --watch sass:sassy-css
-postcss --watch sassy-css/**/*.css --use precss autoprefixer --dir css --base sassy-css
+`gulp` to run everything

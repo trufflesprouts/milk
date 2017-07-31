@@ -48,10 +48,13 @@ html {
 
 html {
   color: #000;
-  font: normal 300 18px "DIN", Helvetica, Arial, sans-serif;
+  font: normal 300 16px "DIN", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
+@media all and (min-width: 700px) {
+  html {
+    font-size: 18px; } }
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, figure, pre {
   font-size: inherit;
@@ -60,7 +63,7 @@ p, ul, ol, figure, pre {
   margin: 0; }
 
 p {
-  line-height: 22px; }
+  line-height: 1.222rem; }
 
 /* Headings */
 h1, h2, h3 {
@@ -198,7 +201,7 @@ a {
   .header .menu {
     max-width: 1290px;
     margin: 0 auto; }
-  @media all and (min-width: 500px) {
+  @media all and (min-width: 1100px) {
     .header .menu-container li {
       position: relative;
       display: inline-block; }

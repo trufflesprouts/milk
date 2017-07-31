@@ -47,5 +47,29 @@
       <?php endforeach ?>
     </div>
   </section>
+
 </main>
+
+  <section class="clients-continer cf">
+    <main>
+      <h1>Our Clients</h1>
+      <?php $blocks = $page->clients()->toStructure(); ?>
+      <div class="blocks">
+        <div class="column-1">
+          <?php $seperated = 0 ?>
+          <?php foreach($blocks as $block): ?>
+          <?php if ($seperated == 0 && $blocks->indexOf($block) > ($blocks->count()/3)): ?>
+            </div> <div class="column-2">
+            <?php $seperated = 1 ?>
+          <?php endif ?>
+              <div class="block">
+                <h3><?= $block->category()->html() ?></h3>
+                <p><?= $block->clientlist()->markdown() ?></p>
+              </div>
+          <?php endforeach ?>
+        </div>
+      </div>
+    </main>
+  </section>
+
 <?php snippet('footer') ?>

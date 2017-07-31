@@ -18,6 +18,7 @@ html {
 main {
   max-width: $wraper-max-width;
   margin: 1.5rem;
+  // margin-bottom: 0;
 }
 
 @media all and (min-width: $wraper-max-width) {

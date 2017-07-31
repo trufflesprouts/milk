@@ -60,9 +60,14 @@ fields:
         label: Description
         type: textarea
 
+  clientsImage:
+    label: Clients Image
+    type: image
+
   clients:
-    label: Client
+    label: Clients
     type: structure
+    sortable: true
     fields:
       category:
         label: Category

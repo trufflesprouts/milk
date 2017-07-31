@@ -119,15 +119,59 @@
 @media all and (min-width: $screen-3) {
   .approach-continer {
     .block {
-      // float: left;
       width: 30%;
-      // clear: none;
     }
     .block:nth-child(odd) {
       margin-right: 0;
     }
     .block:not(:last-child) {
       margin-right: 5%;
+    }
+  }
+}
+
+
+.clients-continer {
+  overflow-x: hidden;
+  position: relative;
+  background-color: $color-papayawhip;
+  margin-top: $space-3;
+  padding-top: $space-2;
+  .block {
+    margin-bottom: $space-1;
+    line-height: 1.8rem;
+  }
+  .column-1 {
+    width: 47%;
+    float: left;
+  }
+  .column-2 {
+    width: 47%;
+    float: right;
+  }
+}
+
+@media all and (min-width: $screen-2) {
+  .clients-continer {
+    background-color: $color-background;
+    margin-top: $space-3;
+    .blocks {
+      width: 100%;
+      padding: $space-1;
+      float: left;
+      background-color: $color-papayawhip;
+    }
+    .block {
+      margin-right: $space-1;
+      float: left;
+    }
+    .column-1 {
+      width: auto;
+      float: left;
+    }
+    .column-2 {
+      width: auto;
+      float: left;
     }
   }
 }

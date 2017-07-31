@@ -94,6 +94,7 @@
     }
     img {
       width: 28%;
+      max-width: 100px;
       float: left;
     }
     .text {
@@ -132,46 +133,94 @@
 
 
 .clients-continer {
-  overflow-x: hidden;
-  position: relative;
   background-color: $color-papayawhip;
   margin-top: $space-3;
   padding-top: $space-2;
+  .blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
   .block {
+    line-height: 1.6rem;
+    width: 47%;
     margin-bottom: $space-1;
-    line-height: 1.8rem;
-  }
-  .column-1 {
-    width: 47%;
-    float: left;
-  }
-  .column-2 {
-    width: 47%;
-    float: right;
+    h3 {
+      margin-bottom: $space-0;
+    }
   }
 }
 
-@media all and (min-width: $screen-2) {
+@media all and (min-width: $screen-1) {
   .clients-continer {
     background-color: $color-background;
-    margin-top: $space-3;
     .blocks {
-      width: 100%;
       padding: $space-1;
       float: left;
       background-color: $color-papayawhip;
     }
     .block {
-      margin-right: $space-1;
-      float: left;
+      width: 28%;
     }
-    .column-1 {
-      width: auto;
+  }
+}
+
+@media all and (min-width: $screen-3) {
+  .clients-continer {
+    background-color: $color-background;
+    .blocks {
+      padding: $space-1;
       float: left;
+      background-color: $color-papayawhip;
     }
-    .column-2 {
-      width: auto;
+    .block {
+      width: 15%;
+    }
+  }
+}
+
+.clients-continer {
+  background-color: $color-papayawhip;
+  margin-top: $space-3;
+  padding-top: $space-2;
+  .blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .block {
+    line-height: 1.6rem;
+    width: 47%;
+    margin-bottom: $space-1;
+    h3 {
+      margin-bottom: $space-0;
+    }
+  }
+}
+
+@media all and (min-width: $screen-1) {
+  .clients-continer {
+    padding-top: 0;
+    background-color: $color-background;
+    .blocks {
+      padding: $space-1;
       float: left;
+      background-color: $color-papayawhip;
+    }
+    .block {
+      width: 28%;
+    }
+  }
+}
+
+@media all and (min-width: $screen-3) {
+  .clients-continer {
+    .block {
+      width: 15%;
     }
   }
 }

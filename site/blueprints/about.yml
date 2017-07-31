@@ -45,15 +45,28 @@ fields:
   approach:
     label: Approach
     type: structure
+    style: table
     sortable: true
     limit: 3
     fields:
       icon:
         label: Icon
         type: image
+        width: 1/4
       title:
         label: Title
         type: text
       description:
         label: Description
+        type: textarea
+
+  clients:
+    label: Client
+    type: structure
+    fields:
+      category:
+        label: Category
+        type: text
+      clientlist:
+        label: Client List
         type: textarea

@@ -81,3 +81,59 @@ Coverimage: black-milk-carton.jpg
 ----
 
 Servicesimage: servicesimage.jpg
+
+----
+
+Clients: 
+
+- 
+  category: 'Food & Beverage'
+  clientlist: |
+    - Aseil
+    - Rossopomodoro
+    - Nadia
+    - Italian touch
+    - Punjab Grill
+    - Ahwak
+    - Tasty Flower
+    - Bil Aish
+    - Harry Ramdson
+    - Maki Restaurant
+    - Warm&Frosty
+    - Amara Burger
+    - Fruit24
+    - Ajji Sushi
+    - The Courtyard City
+    - Bellevue
+- 
+  category: Retail
+  clientlist: |
+    - Nahdi
+    - Lomar
+    - Hamza Thobe
+    - Raheed
+    - Space & Co
+    - Stuff
+    - Baby Dandony
+- 
+  category: Real Estate
+  clientlist: |
+    - The Kingdom Tower
+    - Levels Contracting est
+    - Meras Investment
+    - IHCC
+    - Ammari
+- 
+  category: 'Media & Entertainment'
+  clientlist: |
+    - Mix FM
+    - Ittihad Football Club
+    - Saudi Design Week
+    - Creative edge
+- 
+  category: Corporate
+  clientlist: |
+    - Nomac
+    - Viezen
+    - Diyarkom
+    - Takween Arabian

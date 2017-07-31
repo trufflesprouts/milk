@@ -1,12 +1,26 @@
-.sass-cache/
-*.css.map
-
+node_modules
 
 # System files
 # ------------
 
 Icon
 .DS_Store
+
+# dependencies
+# ------------
+
+/node_modules
+
+
+# misc
+# ------------
+.sass-cache/
+*.css.map
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 
 # Temporary files
 # ---------------

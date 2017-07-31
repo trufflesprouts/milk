@@ -7,12 +7,15 @@ $depth-3: 3;
 $wraper-max-width: 1290px;
 
 // Devices
-$small-screen: 500px;
-$medium-screen: 1100px;
+$screen-0: 500px;
+$screen-1: 700px;
+$screen-2: 900px;
+$screen-3: 1100px;
 
 // Type
 $main-font: "DIN", Helvetica, Arial, sans-serif;
-$base-font-size: 18px;
+$base-font-small: 16px;
+$base-font-big: 18px;
 $base-font-weight: 300;
 
 // Colors

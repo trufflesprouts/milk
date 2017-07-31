@@ -79,7 +79,7 @@ $header-height: 27px;
     margin: 0 auto;
   }
 
-  @media all and (min-width: $small-screen) {
+  @media all and (min-width: $screen-3 ) {
     .menu-container {
       li {
         position: relative;

@@ -1,42 +1,134 @@
 @import "../helpers/vars";
 @import "../components/header-white";
 
-.hero {
-  color: white;
-  text-align: left;
+.hero-container {
   background-color: black;
   padding: 1px;
   background-color: black;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+}
+
+.hero {
+  color: white;
+  text-align: left;
+
   h1 {
     margin-bottom: $space-0;
   }
+
   p {
     max-width: 900px;
     margin: 0 auto;
   }
 }
-
-@media all and (min-width: $small-screen) {
+@media all and (min-width: $screen-1 ) {
   .hero {
     text-align: center;
+
     h1 {
       margin-bottom: $space-1;
     }
+
     p {
       margin-bottom: $space-3;
     }
   }
 }
 
-.services {
+.services-continer {
   margin-top: $space-3;
-  h2 {
-    margin-bottom: $space-0;
+}
+
+.services {
+  .text {
+    h2 {
+      margin-bottom: $space-0;
+    }
+
+    li {
+      line-height: 1.6rem;
+    }
+
+    .category:not(:last-child) {
+      margin-bottom: $space-2;
+    }
   }
-  .category:not(:last-child) {
+
+  .img {
+    margin-top: $space-2;
+    height: 300px;
+    background-color: $color-light-grey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media all and (min-width: $screen-1) {
+  .services {
+    display: flex;
+    flex-direction: row;
+
+    .text {
+      width: 50%;
+    }
+
+    .img {
+      margin-top: 0;
+      height: auto;
+      width: 50%;
+    }
+  }
+}
+
+.approach-continer {
+  margin-top: $space-3;
+  .block {
+    float: left;
     margin-bottom: $space-1;
+    clear: both;
+    h2 {
+      margin-bottom: $space-0;
+    }
+    img {
+      user-select: none;
+      width: 28%;
+      float: left;
+    }
+    .text {
+      width: 67%;
+      float: right;
+    }
+  }
+}
+
+@media all and (min-width: $screen-1) {
+  .approach-continer {
+    .block {
+      float: left;
+      width: 47%;
+      clear: none;
+    }
+    .block:nth-child(odd) {
+      margin-right: 6%;
+    }
+  }
+}
+
+@media all and (min-width: $screen-3) {
+  .approach-continer {
+    .block {
+      // float: left;
+      width: 30%;
+      // clear: none;
+    }
+    .block:nth-child(odd) {
+      margin-right: 0;
+    }
+    .block:not(:last-child) {
+      margin-right: 5%;
+    }
   }
 }

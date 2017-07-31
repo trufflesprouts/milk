@@ -1,10 +1,17 @@
 html {
   color: $color-black;
-  font: normal $base-font-weight $base-font-size $main-font;
+  font: normal $base-font-weight $base-font-small $main-font;
   // Prevent adjustments of font size after orientation changes in IE and iOS.
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
+@media all and (min-width: $screen-1) {
+  html {
+    font-size: $base-font-big;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, figure, pre {
@@ -15,7 +22,7 @@ p, ul, ol, figure, pre {
 }
 
 p {
-  line-height: 22px;
+  line-height: 1.222rem;
 }
 
 /* Headings */
@@ -30,7 +37,7 @@ h1 {
   margin-bottom: $space-2;
 }
 
-@media all and (min-width: $small-screen) {
+@media all and (min-width: $screen-0 ) {
   h1 {
     font-size: 4rem;
   }

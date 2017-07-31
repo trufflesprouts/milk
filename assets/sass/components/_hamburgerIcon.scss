@@ -29,7 +29,7 @@
     width: 60%;
   }
 
-  @media all and (min-width: $small-screen) {
+  @media all and (min-width: $screen-0 ) {
     & {
       width: 32px;
       margin-top: 4px;

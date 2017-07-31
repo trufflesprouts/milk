@@ -13,7 +13,7 @@
   }
 }
 
-@media all and (min-width: $small-screen) {
+@media all and (min-width: $screen-0 ) {
   .open-positions {
     .position {
       float: left;
@@ -28,7 +28,7 @@
   }
 }
 
-@media all and (min-width: $medium-screen) {
+@media all and (min-width: $screen-3) {
   .open-positions {
     float: left;
     width: 50%;

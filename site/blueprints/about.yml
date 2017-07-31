@@ -38,11 +38,19 @@ fields:
         label: Services List
         type: textarea
 
+  servicesImage:
+    label: Services Image
+    type: image
+
   approach:
     label: Approach
     type: structure
+    sortable: true
     limit: 3
     fields:
+      icon:
+        label: Icon
+        type: image
       title:
         label: Title
         type: text

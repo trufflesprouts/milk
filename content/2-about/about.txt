@@ -42,15 +42,6 @@ Services:
 Approach: 
 
 - 
-  title: The Research
-  description: >
-    This is when the process of analysis
-    begins. Researching relevant topics,
-    breaking down local and international
-    competitors to make what it is that you
-    are asking for as relevant and powerful
-    as possible.
-- 
   title: The Brief
   description: >
     During the initial phase of our
@@ -60,6 +51,17 @@ Approach:
     life. Absorbing everything necessary to
     create a brief that will then be sent to
     the creative team.
+  icon: one.jpg
+- 
+  title: The Research
+  description: >
+    This is when the process of analysis
+    begins. Researching relevant topics,
+    breaking down local and international
+    competitors to make what it is that you
+    are asking for as relevant and powerful
+    as possible.
+  icon: two.jpg
 - 
   title: The Execution
   description: >
@@ -70,7 +72,12 @@ Approach:
     is when critiques of the various
     executions help us complete the projects
     at hand.
+  icon: three.jpg
 
 ----
 
 Coverimage: black-milk-carton.jpg
+
+----
+
+Servicesimage: servicesimage.jpg

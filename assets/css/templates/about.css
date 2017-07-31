@@ -1,138 +1,37 @@
-.header {
-  height: 27px;
-  margin-bottom: 11.1rem;
-  /* Hamburger Icon */ }
-  .header .logo {
-    position: relative;
-    z-index: 0;
-    float: left; }
-    .header .logo img {
-      height: 27px; }
-  .header #hamburger-icon {
-    position: relative;
-    z-index: 2;
-    float: right; }
-  .header #hamburger-icon {
-    width: 28px;
-    margin-top: 8px;
-    height: 27px;
-    position: relative;
-    display: block; }
-  .header #hamburger-icon .line {
-    display: block;
-    background: #000;
-    height: 3px;
-    position: absolute;
-    right: 0;
-    border-radius: 3px;
-    transition: all 0.4s; }
-  .header #hamburger-icon .line.line-1 {
-    top: 0;
-    width: 100%; }
-  .header #hamburger-icon .line.line-2 {
-    top: 8px;
-    width: 80%; }
-  .header #hamburger-icon .line.line-3 {
-    top: 16px;
-    width: 60%; }
-  @media all and (min-width: 500px) {
-    .header #hamburger-icon {
-      width: 32px;
-      margin-top: 4px; }
-    .header #hamburger-icon .line.line-2 {
-      top: 10px;
-      width: 80%; }
-    .header #hamburger-icon .line.line-3 {
-      top: 20px;
-      width: 60%; }
-    .header #hamburger-icon:hover .line-1 {
-      transform: translateY(-2px); }
-    .header #hamburger-icon:hover .line-3 {
-      transform: translateY(2px); } }
-  .header #hamburger-icon.nav-active .line-1 {
-    transform-origin: left;
-    transform: translateY(-50%) rotate(45deg); }
-  .header #hamburger-icon.nav-active .line-2 {
-    opacity: 0; }
-  .header #hamburger-icon.nav-active .line-3 {
-    width: 100%;
-    transform-origin: left;
-    transform: translateY(100%) rotate(-45deg); }
-  .header .menu-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    padding: 1.5rem;
-    background-color: whitesmoke;
-    transform: translateY(-100%);
-    transition: 0.7s cubic-bezier(0, 0.86, 0.2, 0.99); }
-    .header .menu-container a {
-      display: inline-block;
-      transition: 0.1s ease-out; }
-    .header .menu-container a:hover {
-      color: #FFA600; }
-    .header .menu-container h1 {
-      font-weight: 300;
-      text-transform: capitalize;
-      margin: 0; }
-    .header .menu-container li {
-      opacity: 0;
-      transition: 1s ease-out; }
-    .header .menu-container li:nth-child(2) {
-      transition-delay: 0.08s; }
-    .header .menu-container li:nth-child(3) {
-      transition-delay: 0.14s; }
-    .header .menu-container li:nth-child(4) {
-      transition-delay: 0.18s; }
-    .header .menu-container li:not(:last-child) {
-      margin-bottom: 1.7rem; }
-    .header .menu-container .social-media {
-      display: none; }
-  .header .menu-container.nav-active {
-    transform: translateY(0); }
-    .header .menu-container.nav-active li {
-      opacity: 1; }
-  .header .menu {
-    max-width: 1290px;
-    margin: 0 auto; }
-  @media all and (min-width: 500px) {
-    .header .menu-container li {
-      position: relative;
-      display: inline-block; }
-    .header .menu-container .social-media {
-      display: block;
-      margin-bottom: 1.5rem; }
-      .header .menu-container .social-media a {
-        text-decoration: underline; }
-      .header .menu-container .social-media li:not(:last-child) {
-        margin: 0 2rem 0 0; }
-    .header .menu-container .pages li:not(:last-child) {
-      margin: 0 4rem 0 0; }
-    .header .menu-container .pages li:not(:last-child)::after {
-      content: "";
-      position: absolute;
-      right: -2rem;
-      top: 50%;
-      transform: translateY(-50%);
-      height: 1.5rem;
-      width: 1px;
-      background-color: #E6E6E6; } }
-
-.hero-container {
-  position: absolute;
-  width: 100vw;
-  left: 0;
-  background-color: black; }
+.header .logo .logo-black {
+  display: none; }
+.header .logo .logo-white {
+  display: inline-block; }
+.header #hamburger-icon .line {
+  background: white; }
 
 .hero {
   color: white;
-  text-align: center; }
+  text-align: left;
+  background-color: black;
+  padding: 1px;
+  background-color: black;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; }
   .hero h1 {
-    margin-bottom: 2.2rem; }
+    margin-bottom: 0.5rem; }
   .hero p {
     max-width: 900px;
     margin: 0 auto; }
+
+@media all and (min-width: 500px) {
+  .hero {
+    text-align: center; }
+    .hero h1 {
+      margin-bottom: 2.2rem; }
+    .hero p {
+      margin-bottom: 11.1rem; } }
+.services {
+  margin-top: 11.1rem; }
+  .services h2 {
+    margin-bottom: 0.5rem; }
+  .services .category:not(:last-child) {
+    margin-bottom: 2.2rem; }
 
 /*# sourceMappingURL=about.css.map */

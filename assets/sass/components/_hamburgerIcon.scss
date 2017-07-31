@@ -56,15 +56,18 @@
   &.nav-active .line-1 {
     // transform: translateY(1.5px) translateX(0) rotate(45deg);
     transform-origin: left;
-    transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-35%) rotate(45deg);
+    background: $color-black;
   }
   &.nav-active .line-2 {
     opacity: 0;
+    background: $color-black;
   }
   &.nav-active .line-3 {
     width: 100%;
     // transform: translateY(-1.5px) translateX(0) rotate(-45deg);
     transform-origin: left;
     transform: translateY(100%) rotate(-45deg);
+    background: $color-black;
   }
 }

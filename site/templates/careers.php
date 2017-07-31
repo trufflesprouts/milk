@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
-
+<main>
+      <?php snippet('nav') ?>
       <h1><?= $page->tagline()->kirbytext() ?></h1>
 
       <div class="cf">
@@ -25,5 +26,5 @@
             <img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
             <?php endforeach ?>
       </div>
-
+</main>
 <?php snippet('footer') ?>

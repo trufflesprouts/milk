@@ -1,107 +1,18 @@
-$header-height: 27px;
 
 .header {
-  height: $header-height;
-  margin-bottom: $space-3;
-
   .logo {
-    position: relative;
-    z-index: $depth-0;
-    float: left;
-    img {
-      height: $header-height;
-    }
-  }
-
-  #hamburger-icon {
-    position: relative;
-    z-index: $depth-2;
-    float: right;
-  }
-  @import "./hamburgerIcon";
-
-  .menu-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: $depth-1;
-    width: 100%;
-    padding: 1.5rem;
-    background-color: rgb(245, 245, 245);
-    a {
-      display: inline-block;
-      transition: 0.1s ease-out;
-    }
-    a:hover {
-      color: $color-orange;
-    }
-    h1 {
-      font-weight: 300;
-      text-transform: capitalize;
-      margin: 0;
-    }
-    li {
-      opacity: 0;
-      transition: 1s ease-out;
-    }
-    li:nth-child(2) {
-      transition-delay: 0.08s;
-    }
-    li:nth-child(3) {
-      transition-delay: 0.14s;
-    }
-    li:nth-child(4) {
-      transition-delay: 0.18s;
-    }
-    li:not(:last-child) {
-      margin-bottom: 1.7rem;
-    }
-    .social-media {
+    .logo-black {
       display: none;
     }
-    transform: translateY(-100%);
-    transition: 0.7s cubic-bezier(0,.86,.2,.99);
-  }
-  .menu-container.nav-active {
-    transform: translateY(0);
-    li {
-      opacity: 1;
+    .logo-white {
+      display: inline-block;
     }
   }
-  .menu {
-    max-width: $wraper-max-width;
-    margin: 0 auto;
-  }
 
-  @media all and (min-width: $small-screen) {
-    .menu-container {
-      li {
-        position: relative;
-        display: inline-block;
-      }
-      .social-media {
-        display: block;
-        margin-bottom: 1.5rem;
-        a {
-          text-decoration: underline;
-        }
-        li:not(:last-child) {
-          margin: 0 2rem 0 0;
-        }
-      }
-      .pages li:not(:last-child) {
-        margin: 0 4rem 0 0;
-      }
-      .pages li:not(:last-child)::after {
-         content: "";
-         position: absolute;
-         right: -2rem;
-         top: 50%;
-         transform: translateY(-50%);
-         height: 1.5rem;
-         width: 1px;
-         background-color: $color-light-grey;
-      }
+
+  #hamburger-icon {
+    & .line {
+      background: white;
     }
   }
 }

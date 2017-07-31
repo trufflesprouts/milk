@@ -19,23 +19,23 @@ Services:
 - 
   category: 'Design & Build'
   serviceslist: |
-    Interactive Design
-    Brand & Identity Design
-    Print & Package Design
-    Digital Strategy
-    Web Design & Development
-    Product Design
-    Environmental Design
+    - Interactive Design
+    - Brand & Identity Design
+    - Print & Package Design
+    - Digital Strategy
+    - Web Design & Development
+    - Product Design
+    - Environmental Design
 - 
   category: 'Concept & Creation'
   serviceslist: |
-    Art Direction
-    Editorial Production
-    Photography
-    Content Strategy & Copywriting
-    Social Media Strategy
-    Brand Consulting & Messaging
-    Naming
+    - Art Direction
+    - Editorial Production
+    - Photography
+    - Content Strategy & Copywriting
+    - Social Media Strategy
+    - Brand Consulting & Messaging
+    - Naming
 
 ----
 
@@ -70,3 +70,7 @@ Approach:
     is when critiques of the various
     executions help us complete the projects
     at hand.
+
+----
+
+Coverimage: black-milk-carton.jpg

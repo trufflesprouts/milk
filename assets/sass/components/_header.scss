@@ -11,6 +11,12 @@ $header-height: 27px;
     img {
       height: $header-height;
     }
+    .logo-black {
+      display: inline-block;
+    }
+    .logo-white {
+      display: none;
+    }
   }
 
   #hamburger-icon {

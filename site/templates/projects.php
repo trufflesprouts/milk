@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('nav') ?>
 
   <main class="main" role="main">
 
@@ -9,8 +10,8 @@
       </div>
       <hr />
     </header>
-      
-    <div class="wrap wide">    
+
+    <div class="wrap wide">
       <?php snippet('showcase') ?>
     </div>
 

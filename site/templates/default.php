@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('nav') ?>
 
   <main class="main" role="main">
 
@@ -9,7 +10,7 @@
       </div>
       <hr />
     </header>
-      
+
     <div class="text wrap">
       <?= $page->text()->kirbytext() ?>
     </div>

@@ -4,7 +4,7 @@ pages:
   template: team
   num: zero
 
-files: false
+files: true
 
 options:
   template: false
@@ -14,6 +14,10 @@ fields:
   title:
     label: Title
     type: title
+
+  coverImage:
+    label: Cover Image
+    type: image
 
   tagline:
     label: Tagline

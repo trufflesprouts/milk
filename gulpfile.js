@@ -1,14 +1,10 @@
 // Include gulp
 var gulp          = require('gulp');
     connect       = require('gulp-connect-php'),
-    browserSync   = require('browser-sync').create();
+    browserSync   = require('browser-sync');
     sass          = require('gulp-sass');
     autoprefixer  = require('gulp-autoprefixer');
     uglifycss     = require('gulp-uglifycss');
-
-var gulp = require('gulp'),
-    connect = require('gulp-connect-php'),
-    browserSync = require('browser-sync');
 
 gulp.task('connect-sync', function() {
   connect.server({}, function (){

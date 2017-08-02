@@ -37,28 +37,71 @@ fields:
       fieldsets:
         jumbotron:
           label: Jumbotron
-          snippet: sections/bodytext
-          fields:
-            text:
-              label: text
-              type: textarea
-        image:
-          label: Image
-          snippet: sections/imagebanner
+          snippet: caseStudy/jumbotron
           fields:
             picture:
-              label: Background Image
+              label: Image
               type: image
-            text:
-              label: Headline Text
-              type: text
-        quote:
-          label: Quote
-          snippet: sections/quote
+        fullText:
+          label: Text
+          snippet: caseStudy/fullText
           fields:
             text:
-              label: Quote Text
+              label: Text
               type: textarea
-            citation:
-              label: Citation
-              type: text
+        fullImage:
+          label: Full Width Image
+          snippet: caseStudy/fullImage
+          fields:
+            picture:
+              label: Image
+              type: image
+        textText:
+          label: Text | Text
+          snippet: caseStudy/textText
+          fields:
+            text1:
+              label: Text Left
+              type: textarea
+              width: 1/2
+            text2:
+              label: Text Right
+              type: textarea
+              width: 1/2
+        imageImage:
+          label: Image | Image
+          snippet: caseStudy/imageImage
+          fields:
+            picture1:
+              label: Image Left
+              type: image
+              width: 1/2
+            picture2:
+              label: Image Right
+              type: image
+              width: 1/2
+        imageText:
+          label: Image | Text
+          snippet: caseStudy/imageText
+          fields:
+            picture:
+              label: Image
+              type: image
+              width: 1/2
+            text:
+              label: Text
+              type: textarea
+              width: 1/2
+        textImage:
+          label: Text | Image
+          entry: {{url}}
+          snippet: caseStudy/textImage
+          fields:
+            text:
+              label: Text
+              type: textarea
+              width: 1/2
+            picture:
+              label: Image
+              type: image
+              width: 1/2

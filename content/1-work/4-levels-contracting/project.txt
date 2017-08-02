@@ -11,3 +11,105 @@ Tags: Digital Design, Exhibition Design, Packaging
 ----
 
 Builder: 
+
+- 
+  text: >
+    Levels Contracting Establishment formed
+    in 2007 as a private enterprise with
+    diverse industrial operations in Saudi
+    Arabia. It offers extensive expertise in
+    the fields of project planning, project
+    management, cost and quality control,
+    safety, scheduling and contract
+    administration. Rush renovation division
+    was always one of the core competence
+    that strongly positioned Levels among
+    its competitors. Its highly skilled and
+    qualified manpower consists of
+    experienced multi-national Engineers and
+    Architects.
+  _fieldset: fullText
+- 
+  picture: levelsbranding-22.jpg
+  _fieldset: jumbotron
+- 
+  text1: >
+    The branding of Levels Contracting Est.
+    was crucial due to its diverse
+    industrial operations in Saudi Arabia.
+    What makes this identity unique is its
+    minimal charm in being subtle yet
+    impactful simultaneously. The strategic
+    cutoff on the main letter, symbolizing
+    levels of progress, in relation to the
+    two tactical slashes with its
+    contrasting colors represent the endless
+    possibilities that this company has to
+    offer with its team of multinational
+    engineers and architects.
+  text2: >
+    Due to the complexity behind
+    contracting, the audience needed to
+    interact with the brand quickly. Levels
+    needed to be easily recognizable. The
+    colors used automatically require the
+    viewers to be alert of the projects. An
+    entire space covered in copious amounts
+    of black and yellow raises curiosity and
+    will expand their clientele. Levels also
+    has an emotional connection with its
+    audience because of its local presence.
+    People witnessing their neighbourhoods
+    improving will make them respect the
+    brand.
+  _fieldset: textText
+- 
+  picture: levelsbranding-03.jpg
+  _fieldset: fullImage
+- 
+  text: |
+    ##Project Duration and Location
+    Levels started in October 2014 with research and analysis. Focusing on their competitors and how to make them stand out locally with a loud identity. The project finished in April 2015 and major banners and strategic color blocking techniques started being placed throughout the city of Jeddah for periods of times while projects were in progress.
+    
+    ##Realization Technology
+    Levels started in October 2014 with research and analysis. Focusing on their competitors and how to make them stand out locally with a loud identity. The project finished in April 2015 and major banners and strategic color blocking techniques started being placed throughout the city of Jeddah for periods of times while projects were in progress.
+  picture: levelsbranding-14.jpg
+  _fieldset: textImage
+- 
+  picture: levelsbranding-11.jpg
+  _fieldset: fullImage
+- 
+  text1: |
+    ##Research Abstract
+    The type of research started with architectural techniques and geometrical balance. The main research objective was to go through books and articles relating to contracting and the scale of space. This again led to the minimal L cutoff speaking volumes to what Levels is. Our data collection showed that less is more and using space wisely will get the job done. This is clearly shown in the relationship between black and yellow. The result was a bold straightforward approach that is persuasive.
+  text2: |
+    ##Challenges
+    The hardest part of this design was to appeal to an international and local level at the same time. In Saudi Arabia, this minimal approach in English might not be as convincing to all fields such as government projects. In order to overcome this problem, we realized that everyone responds to color. Large spaces of contrasting colors with a bold icon will get anyone talking and asking questions. This technique was a success and Levels has a eclectic clientele due to its brand positioning.
+  _fieldset: textText
+- 
+  picture1: levelsbranding-07.jpg
+  picture2: levelsbranding-09.jpg
+  _fieldset: imageImage
+- 
+  picture1: levelsbranding-08.jpg
+  picture2: levelsbranding-06.jpg
+  _fieldset: imageImage
+- 
+  picture: levelsbranding-10.jpg
+  _fieldset: fullImage
+- 
+  picture: levelsbranding-17.jpg
+  _fieldset: fullImage
+- 
+  picture: levelsbranding-05.jpg
+  _fieldset: fullImage
+- 
+  picture: levelsbranding-04.jpg
+  _fieldset: fullImage
+- 
+  picture1: levelsbranding-12.jpg
+  picture2: levelsbranding-13.jpg
+  _fieldset: imageImage
+- 
+  picture: levelsbranding-15.jpg
+  _fieldset: fullImage

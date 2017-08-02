@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-  <main class="main">
+  <main>
     <?php snippet('nav') ?>
 
     <div class="title">
@@ -7,5 +7,11 @@
       <p><?= $page->tags()->html() ?></p>
     </div>
 
+    <div class="case-study">
+      <?php foreach($page->builder()->toStructure() as $section): ?>
+        <?php snippet('caseStudy/' . $section->_fieldset(), array('data' => $section)) ?>
+      <?php endforeach ?>
+    </div>
+  </main>
 
 <?php snippet('footer') ?>

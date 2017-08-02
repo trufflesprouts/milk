@@ -2,7 +2,71 @@
 
 .title {
   text-align: center;
+  margin-bottom: $space-2;
   h1 {
     margin-bottom: $space-0;
+  }
+  p {
+    color: $color-medium-grey;
+  }
+}
+
+section {
+  margin-bottom: $space-1;
+}
+
+section::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 1rem 0 3rem 0;
+}
+
+@media all and (min-width: $screen-1 ) {
+  .left-half {
+    float: left;
+    width: 48%;
+  }
+
+  .right-half {
+    float: right;
+    width: 48%;
+  }
+}
+
+.jumbotron {
+  img {
+    width: 100vw;
+  }
+}
+
+.fullText {
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageImage {
+  .left-half {
+    float: left;
+    width: 48%;
+  }
+
+  .right-half {
+    float: right;
+    width: 48%;
   }
 }

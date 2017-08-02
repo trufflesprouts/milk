@@ -45,3 +45,11 @@ Openpositions:
 ----
 
 Internships: Do you think we need your skills? Do you have passion for creating? Don´t hesitate and contact us if you want to become part of our team.
+
+----
+
+Applyemail: info@milkdesign.co
+
+----
+
+Emailicon: mail.svg

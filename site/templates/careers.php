@@ -18,6 +18,13 @@
             <div class="internships">
                   <h2>Internships</h2>
                   <?= $page->internships()->kirbytext() ?>
+                  <div class="email">
+                        <img src="<?php echo url('assets/images/mail.svg') ?>" alt="">
+                        <div class="text">
+                              <h3>Apply Now</h3>
+                              <a href="mailto:<?= $page->applyemail()->html() ?>" target="_top"><?= $page->applyemail()->html() ?></a>
+                        </div>
+                  </div>
             </div>
       </div>
 

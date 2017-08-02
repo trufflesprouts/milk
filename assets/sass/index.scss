@@ -18,16 +18,12 @@ html {
 main {
   max-width: $wraper-max-width;
   margin: 1.5rem;
-  // margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-@media all and (min-width: $wraper-max-width) {
+@media all and (min-width: $wraper-max-width + 30px) {
   main {
     margin: 1.5rem auto;
+    margin-bottom: 0;
   }
-}
-
-.uniform__potty {
-    position: absolute;
-    left: -9999px;
 }

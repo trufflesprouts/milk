@@ -1,0 +1,178 @@
+@import "../helpers/vars";
+
+.hero {
+  position: relative;
+}
+
+section.contact-details {
+  .blue {
+    color: $color-blue;
+  }
+  p, a {
+    margin-bottom: $space-1;
+  }
+}
+
+section.contact-form {
+  position: relative;
+  z-index: $depth-1;
+
+  background-color: white;
+  padding: $space-1*0.8;
+  box-shadow: 0 0.5rem 1.6rem rgba(0, 0, 0, 0.06);
+  margin-top: $space-2;
+
+  input,
+  label,
+  textarea {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: $space-1;
+    padding: $space-0 0;
+    border-radius: 0;
+    border-bottom: 1px solid $color-medium-grey;
+    &:focus,
+    &:focus,
+    &:focus,
+    &:focus {
+      outline: none;
+      border-bottom-color: $color-blue;
+    }
+  }
+
+  textarea {
+    height: 200px;
+    resize: none;
+  }
+
+  input[type="submit"] {
+    font-weight: 700;
+    background: none;
+    text-align: left;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  input[type="submit"]:focus {
+    color: $color-blue;
+  }
+
+  .uniform__potty {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .error {
+    border: 1px solid red;
+  }
+}
+
+section.map {
+  z-index: $depth-0;
+  margin-top: -200px;
+  height: 350px;
+  background-size: auto;
+  background-position: center 30%;
+  margin-bottom: $space-3;
+}
+
+section.join-us {
+  .img {
+    height: 600px;
+    max-height: 100vw;
+    margin-top: $space-2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    user-select: none;
+    width: 100%;
+    transform: translateY(10px);
+  }
+}
+
+@media all and (min-width: $screen-1 ) {
+  section.map {
+    margin-top: -500px;
+    height: 500px;
+  }
+  section.contact-details {
+    float: left;
+    margin-bottom: $space-1;
+    .details {
+      float: left;
+      width: 50%;
+    }
+    .description {
+      float: right;
+      width: 50%;
+    }
+  }
+
+  section.contact-form {
+    padding: $space-1;
+    clear: both;
+    margin-bottom: $space-3;
+    input,
+    label,
+    textarea {
+      border-width: 2px;
+      margin-bottom: $space-1*1.4;
+    }
+    textarea {
+      height: 300px;
+    }
+  }
+  section.join-us {
+    .text {
+      float: left;
+      width: 47%;
+    }
+    .img {
+      margin-top: 0;
+      width: 47%;
+      float: right;
+    }
+  }
+}
+
+
+@media all and (min-width: $screen-3 ) {
+  section.contact-details {
+    width: 44%;
+    margin-bottom: 0;
+  }
+
+  section.contact-form {
+    position: absolute;
+    right: 0;
+    clear: none;
+    float: right;
+    width: 45%;
+    margin-top: 0;
+    margin-right: 5%;
+    margin-bottom: 0;
+  }
+
+  section.map {
+    transform: translateY(0);
+    height: 550px;
+    display: block;
+    max-width: $wraper-max-width;
+    margin: auto;
+  }
+
+  section.join-us {
+    margin-top: $space-2;
+    .text {
+      margin-top: 150px;
+      width: 60%;
+      p {
+        width: 60%;
+      }
+    }
+    .img {
+      width: 35%;
+    }
+  }
+}

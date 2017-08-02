@@ -8,6 +8,51 @@ Tagline:
 
 Details: 
 
+hello@milkdesign.co
++966 12 6126877
+P.O. Box 2701-1411
+
+Office hours
+Saturday - Thursday
+9:00 AM - 5:00 PM
+
+Office No.101
+6481 King Abdul Aziz Road
+Jeddah 23719-4409
+Saudi Arabia
+
 ----
 
-Description: 
+Description: Milk Jeddah is on the first floor of the Jana Heights building on King Abdulaziz Road in Al Basateen district.
+
+----
+
+Tagline1: Hello There
+
+----
+
+Tagline2: Drop us a line
+
+----
+
+Directionstext: Get directions ↗
+
+----
+
+Directionsurl: https://goo.gl/rLZ8x1
+
+----
+
+Mapimage: map.jpg
+
+----
+
+Careertagline: Want To Join Milk?
+
+----
+
+Careertext: We are always looking for talented thinkers. We may not have any openings right now but if you’re interested in joining Milk, go to our (link: careers text: careers page).
+
+----
+
+Careerimage: guy.jpg

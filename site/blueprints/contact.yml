@@ -11,9 +11,17 @@ fields:
     label: Title
     type: title
 
-  tagline:
-    label: Tagline
+  tagline1:
+    label: Tagline Part 1
     type: text
+    width: 1/2
+
+
+  tagline2:
+    label: Tagline Part 2
+    type: text
+    width: 1/2
+
 
   details:
     label: Details
@@ -24,3 +32,34 @@ fields:
     label: Description
     type: textarea
     width: 1/2
+
+  directionstext:
+    label: Directions Text
+    type: text
+    width: 1/4
+
+  directionsurl:
+    label: Directions URL
+    type: text
+    width: 2/4
+
+  mapImage:
+    label: Map Image
+    type: image
+    width: 1/4
+
+
+  careertagline:
+    label: Career Tagline
+    type: text
+    width: 1/4
+
+  careertext:
+    label: Career Text
+    type: textarea
+    width: 2/4
+
+  careerImage:
+    label: Career Image
+    type: image
+    width: 1/4

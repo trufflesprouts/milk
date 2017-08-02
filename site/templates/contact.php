@@ -3,40 +3,53 @@
 
 <main>
     <?php snippet('nav') ?>
-    <h1><?php echo $page->title()->html() ?></h1>
 
-    <style type="text/css">
-        label, input, textarea {
-            display: block;
-        }
-        .uniform__potty {
-            position: absolute;
-            left: -9999px;
-        }
-        .error {
-            border: 1px solid red;
-        }
-    </style>
+    <div class="hero cf">
+        <section class="contact-details">
+            <h1><span class="blue"><?= $page->tagline1()->html() ?> </span><br><?= $page->tagline2()->html() ?></h1>
 
-    <form action="<?php echo $page->url() ?>" method="POST">
-        <label>Email</label>
-        <input<?php if ($form->error('email')): ?> class="error"<?php endif; ?> name="email" type="email" value="<?php echo $form->old('email') ?>">
+            <div class="description">
+                <?= $page->description()->kirbytext() ?>
+                <p><a target="_blank" href="<?= $page->directionsurl()->html() ?>"><?= $page->directionstext()->html() ?></a></p>
+            </div>
 
-        <label>Name</label>
-        <input<?php if ($form->error('name')): ?> class="error"<?php endif; ?> name="name" type="text" value="<?php echo $form->old('name') ?>">
+            <div class="details">
+                <?= $page->details()->kirbytext() ?>
+            </div>
+        </section>
 
-        <label>Message</label>
-        <textarea<?php if ($form->error('message')): ?> class="error"<?php endif; ?> name="message"><?php echo $form->old('message') ?></textarea>
+        <section class="contact-form">
+            <form action="<?php echo $page->url() ?>" method="POST">
+                <input placeholder="Email" <?php if ($form->error('email')): ?> class="error"<?php endif; ?> name="email" type="email" value="<?php echo $form->old('email') ?>">
 
-        <?php echo csrf_field() ?>
-        <?php echo honeypot_field() ?>
-        <input type="submit" value="Submit">
-    </form>
-    <?php if ($form->success()): ?>
-        Thank you for your message. We will get back to you soon!
-    <?php else: ?>
-        <?php snippet('uniform/errors', ['form' => $form]) ?>
-    <?php endif; ?>
+                <input placeholder="Name" <?php if ($form->error('name')): ?> class="error"<?php endif; ?> name="name" type="text" value="<?php echo $form->old('name') ?>">
+
+                <textarea placeholder="Tell us a little bit about yourself and your project"<?php if ($form->error('message')): ?> class="error"<?php endif; ?> name="message"><?php echo $form->old('message') ?></textarea>
+
+                <?php echo csrf_field() ?>
+                <?php echo honeypot_field() ?>
+                <input type="submit" value="> Submit">
+            </form>
+            <?php if ($form->success()): ?>
+                Thank you for your message. We will get back to you soon!
+            <?php else: ?>
+                <?php snippet('uniform/errors', ['form' => $form]) ?>
+            <?php endif; ?>
+        </section>
+    </div>
+
 </main>
 
+    <section class="map" style="background-image:url(<?= $page->image($page->mapImage()->value())->url() ?>)"></section>
+
+<main>
+    <section class="join-us">
+        <div class="text">
+            <h1><?= $page->careertagline()->html() ?></h1>
+            <?= $page->careertext()->kirbytext() ?>
+        </div>
+        <div class="img" style="background-image:url(<?= $page->image($page->careerImage()->value())->url() ?>)"></div>
+    </section>
+
+</main>
 <?php snippet('footer') ?>

@@ -14,7 +14,8 @@ html {
 
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, figure, pre {
+p, ul, ol, figure, pre,
+label, input, textarea {
   font-size: inherit;
   line-height: inherit;
   margin: 0 0 1.5rem;
@@ -23,6 +24,9 @@ p, ul, ol, figure, pre {
 
 p {
   line-height: 1.222rem;
+  a {
+    color: $color-orange;
+  }
 }
 
 /* Headings */

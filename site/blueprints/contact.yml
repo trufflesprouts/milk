@@ -11,10 +11,16 @@ fields:
     label: Title
     type: title
 
-  intro:
-    label: Intro
-    type: textarea
+  tagline:
+    label: Tagline
+    type: text
 
-  text:
-    label: Text
+  details:
+    label: Details
     type: textarea
+    width: 1/2
+
+  description:
+    label: Description
+    type: textarea
+    width: 1/2

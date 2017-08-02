@@ -33,7 +33,7 @@ $header-height: 27px;
     z-index: $depth-1;
     width: 100%;
     padding: 1.5rem;
-    background-color: rgb(245, 245, 245);
+    background-color: $color-light-grey;
     a {
       display: inline-block;
       transition: 0.1s ease-out;
@@ -106,7 +106,7 @@ $header-height: 27px;
          transform: translateY(-50%);
          height: 1.5rem;
          width: 1px;
-         background-color: $color-light-grey;
+         background-color: $color-medium-grey;
       }
     }
   }

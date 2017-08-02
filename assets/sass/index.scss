@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "./helpers/vars";
 @import "./helpers/clearfix";
+@import "./helpers/animations";
 @import "./common/fonts";
 @import "./common/reset";
 @import "./common/typography";
@@ -25,5 +26,25 @@ main {
   main {
     margin: 1.5rem auto;
     margin-bottom: 0;
+  }
+}
+
+.transition-cover {
+  position: absolute;
+  z-index: $depth-3;
+  top: 0;
+  left: 0;
+  background-color: $color-light-grey;
+  height: 100vh;
+  width: 100vw;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+
+  &.up {
+    animation-name: moveUp;
+  }
+  &.down {
+    display: none;
+    animation-name: moveDown;
   }
 }

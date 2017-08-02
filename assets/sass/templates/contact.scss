@@ -47,6 +47,7 @@ section.contact-form {
   }
 
   input[type="submit"] {
+    cursor: pointer;
     font-weight: 700;
     background: none;
     text-align: left;
@@ -54,7 +55,7 @@ section.contact-form {
     margin-bottom: 0;
   }
 
-  input[type="submit"]:focus {
+  input[type="submit"]:focus, input[type="submit"]:hover {
     color: $color-blue;
   }
 

@@ -22,14 +22,14 @@ fields:
     required: true
     search: true
     options:
-      artDirection: Art Direction
+      Art Direction: Art Direction
       brandIdentity: Brand Identity
-      campaigns: Campaigns
-      digitalDesign: Digital Design
-      exhibitionDesign: Exhibition Design
-      packaging: Packaging
-      photography: Photography
-      spaceDesign: Space Design
+      Campaigns: Campaigns
+      Digital Design: Digital Design
+      Exhibition Design: Exhibition Design
+      Packaging: Packaging
+      Photography: Photography
+      Space Design: Space Design
 
   builder:
       label: Case Study

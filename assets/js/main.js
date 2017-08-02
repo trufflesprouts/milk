@@ -13,5 +13,5 @@ function transitionInternal(url) {
   transitionCoverDown.style.display = "block";
   setTimeout(function () {
     window.location.href = url;
-  }, 500);
+  }, 300);
 }

@@ -2,7 +2,7 @@ Title: Montelena
 
 ----
 
-Coverimage: cover.jpg
+Coverimage: cover.png
 
 ----
 

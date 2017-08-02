@@ -1,0 +1,54 @@
+@import "../helpers/vars";
+
+img {
+  width: 100%;
+}
+
+.fancy-grid {
+  figure:nth-child(2) {
+    margin-top: 20%;
+  }
+  figure:nth-child(even) {
+    float: left;
+    width: 48%;
+    clear: left;
+  }
+  figure:nth-child(odd) {
+    float: right;
+    width: 48%;
+    clear: right;
+  }
+
+  figure {
+    margin: $space-0 0;
+    figcaption {
+      text-align: center;
+      margin: $space-1 $space-0;
+      .tags {
+        display: none;
+      }
+    }
+    transition: 1s cubic-bezier(0,.86,.2,.99);
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@media all and (min-width: $screen-1 ) {
+  .fancy-grid {
+    max-width: $wraper-max-width;
+    margin: 0 auto;
+    figure {
+      margin: $space-1 0;
+      figcaption {
+        .tags {
+          display: block;
+          margin-top: $space-0;
+          color: $color-medium-grey;
+        }
+      }
+    }
+
+  }
+}

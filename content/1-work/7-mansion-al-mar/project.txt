@@ -2,7 +2,7 @@ Title: Mansion Al Mar
 
 ----
 
-Coverimage: cover.png
+Coverimage: cover.jpg
 
 ----
 

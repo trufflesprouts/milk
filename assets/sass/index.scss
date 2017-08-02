@@ -29,22 +29,24 @@ main {
   }
 }
 
-.transition-cover {
-  position: absolute;
-  z-index: $depth-3;
-  top: 0;
-  left: 0;
-  background-color: $color-light-grey;
-  height: 100vh;
-  width: 100vw;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0,.86,.2,.99);
-  &.up {
-    animation-name: moveUp;
-  }
-  &.down {
-    display: none;
-    animation-name: moveDown;
+@media all and (min-width: $screen-1 ) {
+  .transition-cover {
+    position: absolute;
+    z-index: $depth-3;
+    top: 0;
+    left: 0;
+    background-color: $color-light-grey;
+    height: 100vh;
+    width: 100vw;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0,.86,.2,.99);
+    &.up {
+      animation-name: moveUp;
+    }
+    &.down {
+      display: none;
+      animation-name: moveDown;
+    }
   }
 }

@@ -1,0 +1,13 @@
+Title: Juno
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Tags: digitalDesign, exhibitionDesign, photography
+
+----
+
+Builder: 

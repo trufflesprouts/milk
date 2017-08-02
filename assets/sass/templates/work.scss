@@ -1,0 +1,52 @@
+@import "../helpers/vars";
+
+.work-grid {
+  display: flex;
+  margin-bottom: $space-3;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  figure {
+    width: 47%;
+    margin-bottom: $space-1;
+    img {
+      width: 100%;
+      transition: 1s cubic-bezier(0,.86,.2,.99);
+    }
+    figcaption {
+      margin: $space-0 0;
+      text-align: center;
+    }
+    transition: 1s cubic-bezier(0,.86,.2,.99);
+    &:hover {
+      transform: translateY(-10px);
+      img {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
+}
+
+@media all and (min-width: $screen-1 ) {
+  .work-grid {
+    figure {
+      width: 31%;
+    }
+  }
+}
+
+@media all and (min-width: $screen-2 ) {
+  .work-grid {
+    justify-content: flex-start;
+    max-width: $wraper-max-width;
+    margin: 0 auto $space-3 auto;
+    figure {
+      width: 23.5%;
+      &:not(:nth-child(4n)) {
+        margin-right: 2% !important;
+      }
+    }
+  }
+}

@@ -13,6 +13,7 @@
 .hero {
   color: white;
   text-align: left;
+  padding-bottom: $space-1;
 
   h1 {
     margin-bottom: $space-0;
@@ -26,6 +27,7 @@
 @media all and (min-width: $screen-1 ) {
   .hero {
     text-align: center;
+    padding-bottom: 0;
 
     h1 {
       margin-bottom: $space-1;

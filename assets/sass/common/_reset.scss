@@ -13,12 +13,12 @@ footer, header, main, menu, nav, section, summary {
 }
 
 ::-moz-selection {
-  background: $color-light-grey;
+  background: $color-medium-grey;
   color: black;
 }
 
 ::selection {
-  background: $color-light-grey;
+  background: $color-medium-grey;
   color: $color-black;
 }
 

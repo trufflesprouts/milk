@@ -6,3 +6,12 @@ function hamburgerFunction() {
   var hamburger = document.getElementById("hamburger-icon");
   hamburger.classList.toggle('nav-active');
 }
+
+
+function transitionInternal(url) {
+  var transitionCoverDown = document.querySelector('.transition-cover.down');
+  transitionCoverDown.style.display = "block";
+  setTimeout(function () {
+    window.location.href = url;
+  }, 500);
+}

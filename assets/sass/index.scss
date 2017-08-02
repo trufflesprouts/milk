@@ -37,9 +37,9 @@ main {
   background-color: $color-light-grey;
   height: 100vh;
   width: 100vw;
-  animation-duration: 0.4s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
-
+  animation-timing-function: cubic-bezier(0,.86,.2,.99);
   &.up {
     animation-name: moveUp;
   }

@@ -17,8 +17,8 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'put your license key here');
 c::set('debug',true);
-kirby()->hook('panel.file.upload', 'resizeImage');
-kirby()->hook('panel.file.replace', 'resizeImage');
+// kirby()->hook('panel.file.upload', 'resizeImage');
+// kirby()->hook('panel.file.replace', 'resizeImage');
 
 function resizeImage($file) {
   // set a max. dimension

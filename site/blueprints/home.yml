@@ -11,6 +11,16 @@ fields:
     label: Intro
     type:  textarea
 
+  featuredproject:
+    label: Featured Project
+    type: select
+    required: true
+    options: query
+    query:
+      page: work
+      fetch: children
+      value: '{{uri}}'
+      text: '{{title}}'
   text:
     label: Text
     type:  textarea

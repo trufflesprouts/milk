@@ -4,6 +4,9 @@ Title: Home
 
 Intro: 
 
+Milk is a jeddah-based branding agency with a global mindset, local assets.
+We are focused on bringing companies into new challenges to help setting them apart from competitors.
+
 ----
 
 Text: 
@@ -18,3 +21,7 @@ Text:
 - (link: http://getkirby.com/support text: Get in contact) if you need support.
 
 **Have fun with Kirby!**
+
+----
+
+Featuredproject: work/cerveza-escenica

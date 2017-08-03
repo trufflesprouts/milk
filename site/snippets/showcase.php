@@ -25,7 +25,7 @@ if(isset($limit)) $projects = $projects->limit($limit);
   <?php foreach($projects as $project): ?>
 
     <figure class="showcase-item column">
-        <a onclick="transitionInternal('<?= $project->url() ?>')">
+        <a href="<?= $project->url() ?>">
           <?php if($image = $project->coverImage()->toFile()): $thumb = $image->crop(300, 300); ?>
             <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>">
             <figcaption>

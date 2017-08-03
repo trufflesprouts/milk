@@ -16,5 +16,3 @@
 
 </head>
 <body>
-  <div class="transition-cover up"></div>
-  <div class="transition-cover down"></div>

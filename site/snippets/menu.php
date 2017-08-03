@@ -9,7 +9,7 @@
         <ul class="pages">
           <?php foreach($pages->visible() as $item): ?>
           <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
-            <a onclick="transitionInternal('<?= $item->url() ?>')"><h1><?= $item->title()->html() ?></h1></a>
+            <a href="<?= $item->url() ?>"><h1><?= $item->title()->html() ?></h1></a>  
           </li>
           <?php endforeach ?>
         </ul>

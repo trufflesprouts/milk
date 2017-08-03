@@ -1,6 +1,6 @@
 <header class="header cf">
   <div class="logo">
-    <a onclick="transitionInternal('<?= url() ?>')" rel="home">
+    <a href="<?= url() ?>">
       <img class="logo-black" src="<?= $site->Image('logo-black.svg')->url()?>" alt="milk">
       <img class="logo-white" src="<?= $site->Image('logo-white.svg')->url()?>" alt="milk">
     </a>

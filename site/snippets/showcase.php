@@ -27,7 +27,9 @@ if(isset($limit)) $projects = $projects->limit($limit);
     <figure class="showcase-item column">
         <a href="<?= $project->url() ?>">
           <?php if($image = $project->coverImage()->toFile()): $thumb = $image->crop(300, 300); ?>
-            <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>">
+            <div class="img"
+                style="background-image:url(<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>)">
+            </div>
             <figcaption>
               <?= $project->title()->html() ?>
             </figcaption>

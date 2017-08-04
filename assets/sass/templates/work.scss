@@ -11,9 +11,13 @@
   figure {
     width: 47%;
     margin-bottom: $space-1;
-    img {
+    .img {
       width: 100%;
-      transition: 1s cubic-bezier(0,.86,.2,.99);
+      height: 0;
+      padding-bottom: 100%;
+      background-size: cover;
+      background-position: center;
+      transition: 0.5s ease;
     }
     figcaption {
       margin: $space-0 0;
@@ -22,8 +26,8 @@
     transition: 1s cubic-bezier(0,.86,.2,.99);
     &:hover {
       transform: translateY(-10px);
-      img {
-        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+      .img {
+        box-shadow: 0 1rem 3rem -1rem rgba(0, 0, 0, 0.15);
       }
     }
   }

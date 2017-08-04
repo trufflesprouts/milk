@@ -21,6 +21,3 @@ fields:
       fetch: children
       value: '{{uri}}'
       text: '{{title}}'
-  text:
-    label: Text
-    type:  textarea

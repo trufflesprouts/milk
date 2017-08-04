@@ -2,10 +2,6 @@ Title: About
 
 ----
 
-Intro: The notion of an everyday world transformed by grandiose ventures is not, of course, exclusive to the nineteen-thirties. It has exerted a perennial popular appeal. Even today, daydreams of mile-high skyscrapers, subterranean parks, and buses straddling entire highways are often treated as hard news. Though they are rarely realistic, as either engineering proposals or as political solutions to urban problems, they strike an imaginative chord. And justifiably so: compared with damming the Hudson, the idea of, say, fixing and maintaining Manhattan’s aging sewer system seems like the definition of tedium. For some people, the city of tomorrow must be a spectacle, or it won’t be the city of tomorrow at all.
-
-----
-
 Text: Milk is a Jeddah-based Branding agency with a global mindset, local assets. We are focused on strategically better position and develop brand identities for our clients to set them apart from competitors.
 
 ----
@@ -14,9 +10,9 @@ Tagline: Cows Do Milk, Milk Does Brands
 
 ----
 
-Services: 
+Services:
 
-- 
+-
   category: 'Design & Build'
   serviceslist: |
     - Interactive Design
@@ -26,7 +22,7 @@ Services:
     - Web Design & Development
     - Product Design
     - Environmental Design
-- 
+-
   category: 'Concept & Creation'
   serviceslist: |
     - Art Direction
@@ -39,9 +35,9 @@ Services:
 
 ----
 
-Approach: 
+Approach:
 
-- 
+-
   title: The Brief
   description: >
     During the initial phase of our
@@ -52,7 +48,7 @@ Approach:
     create a brief that will then be sent to
     the creative team.
   icon: one.jpg
-- 
+-
   title: The Research
   description: >
     This is when the process of analysis
@@ -62,7 +58,7 @@ Approach:
     are asking for as relevant and powerful
     as possible.
   icon: two.jpg
-- 
+-
   title: The Execution
   description: >
     After analysis, phase 3 is taking all
@@ -84,9 +80,9 @@ Servicesimage: servicesimage.jpg
 
 ----
 
-Clients: 
+Clients:
 
-- 
+-
   category: 'Food & Beverage'
   clientlist: |
     - Aseil
@@ -105,7 +101,7 @@ Clients:
     - Ajji Sushi
     - The Courtyard City
     - Bellevue
-- 
+-
   category: Retail
   clientlist: |
     - Nahdi
@@ -115,7 +111,7 @@ Clients:
     - Space & Co
     - Stuff
     - Baby Dandony
-- 
+-
   category: Real Estate
   clientlist: |
     - The Kingdom Tower
@@ -123,14 +119,14 @@ Clients:
     - Meras Investment
     - IHCC
     - Ammari
-- 
+-
   category: 'Media & Entertainment'
   clientlist: |
     - Mix FM
     - Ittihad Football Club
     - Saudi Design Week
     - Creative edge
-- 
+-
   category: Corporate
   clientlist: |
     - Nomac

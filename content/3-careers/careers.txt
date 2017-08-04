@@ -2,21 +2,13 @@ Title: Careers
 
 ----
 
-Intro: #Join Us
-
-----
-
-Text: 
-
-----
-
 Tagline: Join Us
 
 ----
 
-Openpositions: 
+Openpositions:
 
-- 
+-
   title: Account Executive
   description: >
     We are on the hunt for an account
@@ -29,7 +21,7 @@ Openpositions:
     national with fluent English. It is a
     requirement to have 1 to 2 years of
     experience in an advertising agency.
-- 
+-
   title: Social Media Specialist
   description: >
     This role will monitor and track all

@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
-<?php snippet('nav') ?>
 
   <main class="main" role="main">
+    <?php snippet('nav') ?>
 
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>

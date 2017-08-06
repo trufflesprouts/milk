@@ -24,7 +24,7 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
   <?php foreach($projects as $project): ?>
 
-    <figure class="showcase-item column">
+    <figure>
         <a href="<?= $project->url() ?>">
           <?php if($image = $project->coverImage()->toFile()): $thumb = $image->crop(300, 300); ?>
             <div class="img"

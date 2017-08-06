@@ -72,7 +72,7 @@ img {
     }
     transition: 1s cubic-bezier(0,.86,.2,.99);
     &:hover {
-      transform: translateY(-10px);
+      transform: translateY(-10px) !important;
     }
   }
 }

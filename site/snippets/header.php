@@ -10,7 +10,16 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
 
-  <?php echo js('assets/js/main.js') ?>
+  <script type="text/javascript">
+    // Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
+    function hamburgerFunction() {
+      var menu = document.getElementById("nav-menu");
+      menu.classList.toggle('nav-active');
+      var hamburger = document.getElementById("hamburger-icon");
+      hamburger.classList.toggle('nav-active');
+    }
+  </script>
+
   <?= css('assets/css/index.css') ?>
   <?php echo css('@auto') ?>
 

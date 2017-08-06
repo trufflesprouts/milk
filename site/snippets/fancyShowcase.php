@@ -12,7 +12,7 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
   <?php foreach($projects as $project): ?>
     <?php if($project->title() != page('home')->featuredproject()->toPage()->title()): ?>
-      <figure class="showcase-item column">
+      <figure>
           <a href="<?= $project->url() ?>">
             <?php if($image = $project->coverImage()->toFile()): ?>
               <img src="<?= $image->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>">

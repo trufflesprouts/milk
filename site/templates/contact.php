@@ -43,7 +43,7 @@
     <section class="map" style="background-image:url(<?= $page->image($page->mapImage()->value())->url() ?>)"></section>
 
 <main>
-    <section class="join-us">
+    <section class="join-us scroll-reveal-s">
         <div class="text">
             <h1><?= $page->careertagline()->html() ?></h1>
             <?= $page->careertext()->kirbytext() ?>

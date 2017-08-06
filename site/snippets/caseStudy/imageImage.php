@@ -1,4 +1,4 @@
-<section class="imageImage">
+<section class="imageImage scroll-reveal-s">
 
 <div class="left-half">
   <?php if ($data->picture1()->isNotEmpty()): ?>

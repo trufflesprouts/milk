@@ -1,4 +1,4 @@
-<section class="textImage">
+<section class="textImage scroll-reveal-s">
 
 <div class="left-half">
   <?= $data->text()->kt() ?>

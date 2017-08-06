@@ -1,4 +1,4 @@
-<section class="textText cf">
+<section class="textText cf scroll-reveal-s">
 
   <div class="left-half">
     <?= $data->text1()->kt() ?>

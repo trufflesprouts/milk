@@ -16,7 +16,7 @@
 <main>
 
 
-  <section class="services-continer cf">
+  <section class="services-continer cf scroll-reveal-s">
     <h1>What We Do</h1>
     <div class="services">
       <div class="text">
@@ -33,7 +33,7 @@
   </section>
 
 
-  <section class="approach-continer cf">
+  <section class="approach-continer cf scroll-reveal-s">
     <h1>Our Approach</h1>
     <div class="blocks">
       <?php foreach($page->approach()->toStructure() as $block): ?>
@@ -50,7 +50,7 @@
 
 </main>
 
-  <section class="clients-continer cf">
+  <section class="clients-continer cf scroll-reveal-s">
     <main>
       <h1>Our Clients</h1>
       <?php $blocks = $page->clients()->toStructure(); ?>

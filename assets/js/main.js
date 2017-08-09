@@ -6,8 +6,9 @@ window.sr = ScrollReveal();
 
 sr.reveal('figure', {
   reset: true,
-  opacity: 0,
-  duration: 1000,
+  // opacity: 0,
+  duration: 2000,
+  scale: 1,
   easing: 'cubic-bezier(0,0.86,0.2,0.99)'
 });
 

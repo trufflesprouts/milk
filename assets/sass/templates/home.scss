@@ -8,12 +8,12 @@ img {
 .hero-container {
   position: relative;
   height: 80vh;
-  background-color: #0701EE;
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
   animation-name: reveal;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
   transition: 1s cubic-bezier(0,.86,.2,.99);
